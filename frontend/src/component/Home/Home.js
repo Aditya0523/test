@@ -21,14 +21,6 @@ import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/Loader/Loader";
 import { useAlert } from "react-alert";
 
-// testing
-// const product = {
-//   name: "Blue Shirt",
-//   images: [{url: "https://i.ibb.co/DRST11n/1.webp"}],
-//   price: "$300",
-//   _id: "aditya",
-// }
-
 const Home = () => {
   const alert = useAlert();
   const dispatch = useDispatch();
@@ -48,10 +40,10 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="Jeager Store" />
 
           <div className="banner">
-            <p>Welcome to Ecommerce</p>
+            <p>Welcome to Jeager Store</p>
             <h1>FIND AMAZING PRODUCTS BELOW</h1>
 
             <a href="#container">
